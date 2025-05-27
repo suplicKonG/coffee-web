@@ -1,0 +1,35 @@
+.intro-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3% 1rem;
+    align-items: flex-start;
+    border-bottom: 1px solid #a1866f;
+    box-shadow: 0px 3px 2px -2px #a1866f;
+}
+
+.intro{
+    display: flex;
+    padding: 40px 20px;
+    font-size: 20px;
+    flex-direction: column;
+    flex: 1;
+    min-width: 300px;
+}
+
+.intro-image img{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.p-1{
+    margin-bottom: 5rem;
+}
+
+.p-2{
+    margin-bottom: 1.5rem;
+}

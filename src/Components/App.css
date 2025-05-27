@@ -1,0 +1,13 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+
+.page-background{
+     background: linear-gradient(200deg,#f5e6da 0%, #d8c3a5 2%,#ffffff 80%);
+     min-height: 100vh;
+     width: 100%;
+}
