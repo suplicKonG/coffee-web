@@ -26,8 +26,42 @@
     gap: 0.5rem;
 }
 
+.footer-links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-links p{
+    position: relative;
+    display: inline-block;
+}
+
+.footer-links p::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #a1866f;
+    transition: width 0.3s ease-in-out;
+}
+
+.footer-links p:hover::after{
+    width: 100%;
+}
+
 .social{
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+@media (max-width: 768px){
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
 }

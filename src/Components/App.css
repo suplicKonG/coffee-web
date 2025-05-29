@@ -11,3 +11,18 @@
      min-height: 100vh;
      width: 100%;
 }
+
+h1, a{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 800;
+}
+
+h2{
+    font-family: "IBM Plex Mono", monospace;
+    font-family: 400;
+}
+
+p{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+}
