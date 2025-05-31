@@ -51,6 +51,13 @@
     margin: 50px 0 50px 0;
 }
 
+@media (max-width: 1024px){
+    .interior img{
+        max-width: 100%;
+        padding: 0 16px;
+    }
+}
+
 @media(max-width: 768px){
     .interior img{
         max-width: 100%;
