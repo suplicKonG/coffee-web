@@ -80,7 +80,7 @@
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 65px;
         left: 0;
         background: rgba(255, 255, 255, 1);
         width: 100%;
@@ -100,6 +100,19 @@
     }
 
     .burger.open span:nth-child(3){
-        transform: rotate(-45deg) translate(6px, -5px);
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
+
+@media (max-width: 320px){
+    .navlist{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 85px;
+        left: 0;
+        background: rgba(255, 255, 255, 1);
+        width: 100%;
+        padding: 20px;
     }
 }
